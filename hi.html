@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Web Proj</title>
+</head>
+<body style="background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c5ae195f-e639-4f3e-87e0-6199d10d2fb9/dg65n12-e39839ab-ea1c-4f10-81c0-58a5acdc6a13.png/v1/fill/w_791,h_1010/mike_wazowski_meme_png_by_kylewithem_dg65n12-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTYzNCIsInBhdGgiOiJcL2ZcL2M1YWUxOTVmLWU2MzktNGYzZS04N2UwLTYxOTlkMTBkMmZiOVwvZGc2NW4xMi1lMzk4MzlhYi1lYTFjLTRmMTAtODFjMC01OGE1YWNkYzZhMTMucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.cB5_8iLyaxeAgw_R3f64c1uteab3XMgKaOD6nrNNECs'); background-size: cover; background-position: center center;">
+
+
+    <!-- Header -->
+    <header>
+        <h1>HTML Tags project</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#lock-in">Lock-in</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <!-- Main Content -->
+    <main>
+        <article>
+            <h2>Article Tag</h2>
+            <p>The "artice" tag in HTML is used to define content that forms an independent, self-contained piece of content, such as a blog post, news article, forum post, or any content that could be distributed or reused on its own.</p>
+            <blockquote>
+                "Using the block-quote makes this text look like it was quoted" - Someone
+            </blockquote>
+        </article>
+
+        <section>
+            <h2>Here is a Picture</h2>
+            <figure>
+                <img src="https://us-tuna-sounds-images.voicemod.net/a7e34f31-9dbf-4f78-867d-38b89a55f588-1735024703394.png" alt="Placeholder Image">
+                <figcaption>This is just a random image</figcaption>
+            </figure>
+        </section>
+
+        <aside>
+            <h3>Side Note</h3>
+            <p>The "aside" tag in HTML is used to represent content that is tangentially related to the content around it, but not central to the main focus. <br> It's used to post those <b> DID YOU KNOW? </b> facts on the side of the main content</p>
+        </aside>
+    </main>
+
+    <hr>
+
+    <!-- Making list -->
+    <section>
+        <h2>Few tags used in the webpage</h2>
+        <ol>
+            <li>address</li>
+            <li>article</li>
+            <li>aside</li>
+        </ol>
+<p>and </p>
+        <ul>
+            <li>blockquote</li>
+            <li>figure</li>
+        </ul>
+    </section>
+
+    <!-- Form -->
+    <form>
+        <fieldset>
+            <legend>Contact Details</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+
+    <!-- Drawing -->
+    <h2>Drawing in a CANVAS</h2>
+    <canvas id="drawing" width="150" height="150" style="border:1px solid black;"></canvas>
+    <script>
+        const canvas = document.getElementById("drawing");
+        const ctx = canvas.getContext("2d");
+        ctx.fillStyle = "blue";
+        ctx.fillRect(50, 50, 50, 50);
+    </script>
+
+    <!-- Table -->
+    <h3>Table</h3>
+    <table border="1">
+        <tbody><tr>
+            <th>Name</th>
+            <th>Contribution</th>
+        </tr>
+        <tr>
+            <td>Boom</td>
+            <td>30</td>
+        </tr>
+        </tbody><tfoot><tr>
+            <td>Hit</td>
+            <td>31</td>
+        </tr></tfoot>
+    </table>
+ <br>
+    <!-- Video -->
+<h3> Get rickrolled? </h3>
+  <video src="https://www.youtube.com/watch?v=2qBlE2-WL60" controls="">
+    <noscript>
+        <p>Video is unable to load/play on your browser.</p>
+    </noscript>
+</video>
+	
+<!--dddldt&pre-->
+<dl>
+    <dt>HTML</dt>
+    <dd>HTML stands for HyperText Markup Language. It is used to create the structure of web pages.</dd>
+</dl>
+
+<pre>This is a line of text.
+    This line is intentional.
+This is another line.
+</pre>
+    <!-- Footer&Address -->
+<address>
+    <footer>
+        <p>This is the footer. Any suggestions -  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Click for mail :p</a></p>
+    </footer>
+</address>
+
+  
+
+</body>
+</html>
